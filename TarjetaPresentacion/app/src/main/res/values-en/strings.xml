@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Presentation card</string>
+    <string name="text_name">COMPLETE NAME</string>
+    <string name="text_profesion">PROFESSION</string>
+    <string name="text_date">DATE OF BIRTH</string>
+    <string name="text_email">EMAIL ADDRESS</string>
+    <string name="text_number">PHONE NUMBER</string>
+    <string name="sex_text">GENDER</string>
+    <string name="share_button">SHARE</string>
+</resources>

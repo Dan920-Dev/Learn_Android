@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarjeta Presentacion</string>
+    <string name="text_name">NOMBRE COMPLETO</string>
+    <string name="text_profesion">PROFESION</string>
+    <string name="text_date">FECHA DE NACIMIENTO</string>
+    <string name="text_email">CORREO ELECTRONICO</string>
+    <string name="text_number">NUMERO TELEFONICO</string>
+    <string name="sex_text">GENERO</string>
+    <string name="share_button">COMPARTIR</string>
+</resources>
