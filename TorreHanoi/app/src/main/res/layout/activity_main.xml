@@ -102,5 +102,91 @@
         app:layout_constraintStart_toEndOf="@+id/tower2"
         app:srcCompat="@drawable/tower" />
 
+    <ImageView
+        android:id="@+id/bigDisk1"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower1"
+        app:srcCompat="@drawable/big_disk" />
+
+    <ImageView
+        android:id="@+id/bigDisk2"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toEndOf="@+id/bigDisk1"
+        app:layout_constraintTop_toTopOf="@+id/tower2"
+        app:srcCompat="@drawable/big_disk" />
+
+    <ImageView
+        android:id="@+id/bigDisk3"
+        android:layout_width="89dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toEndOf="@+id/bigDisk1"
+        app:layout_constraintTop_toTopOf="@+id/tower3"
+        app:srcCompat="@drawable/big_disk" />
+
+    <ImageView
+        android:id="@+id/mediumDisk1"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/bigDisk1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medium_disk" />
+
+    <ImageView
+        android:id="@+id/mediumDisk2"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bigDisk2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medium_disk" />
+
+    <ImageView
+        android:id="@+id/mediumDisk3"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bigDisk3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medium_disk" />
+
+    <ImageView
+        android:id="@+id/smallDisk"
+        android:layout_width="47dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/mediumDisk2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/small_disk" />
+
+    <ImageView
+        android:id="@+id/smallDisk2"
+        android:layout_width="47dp"
+        android:layout_height="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/mediumDisk2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/small_disk" />
+
+    <ImageView
+        android:id="@+id/smallDisk3"
+        android:layout_width="47dp"
+        android:layout_height="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/mediumDisk3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/small_disk" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
