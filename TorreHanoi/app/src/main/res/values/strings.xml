@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Torre Hanoi</string>
+    <string name="prev_text">ANTERIOR</string>
+    <string name="description_text">El juego de la torre de hanoi, consiste en mover los disco des la torre de la izquierda a la torre de la derecha considerando las siguiente reglas: \n \n -Sólo se puede mover un disco cada vez.\n-Un disco de mayor tamaño no puede descansar sobre uno más pequeño que él mismo.\n -Sólo puedes desplazar el disco que se encuentre arriba en cada varilla.</string>
+    <string name="next_text">SIGUIENTE</string>
+    <string name="current_text">Paso Actual</string>
+    <string name="counter_text_view">0</string>
 </resources>

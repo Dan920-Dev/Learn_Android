@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="medium_gap">18dp</dimen>
+    <dimen name="medium_gap_text">18sp</dimen>
 </resources>
