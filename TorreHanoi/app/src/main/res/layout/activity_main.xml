@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+
     <Button
         android:id="@+id/prev"
         style="@style/Widget.MaterialComponents.Button.TextButton"
@@ -56,50 +59,52 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!--> Imagenes  usar <!-->
+
     <TextView
         android:id="@+id/paso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="@string/current_text"
         android:textColor="@color/black"
         android:textSize="@dimen/medium_gap_text"
         app:layout_constraintBottom_toTopOf="@+id/counter"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <!--> Imagenes  usar <!-->
 
     <ImageView
         android:id="@+id/tower1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
         app:layout_constraintBottom_toTopOf="@+id/prev"
-        app:layout_constraintEnd_toStartOf="@+id/tower2"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
         app:srcCompat="@drawable/tower" />
 
     <ImageView
         android:id="@+id/tower2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/paso"
-        app:layout_constraintEnd_toStartOf="@+id/next"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="@+id/prev"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.349"
+        app:layout_constraintVertical_bias="0.11"
         app:srcCompat="@drawable/tower" />
 
     <ImageView
         android:id="@+id/tower3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintBottom_toTopOf="@+id/next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toEndOf="@+id/tower2"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tower" />
 
     <ImageView
@@ -118,27 +123,34 @@
         android:layout_height="17dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="170dp"
-        app:layout_constraintStart_toEndOf="@+id/bigDisk1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tower2"
+        android:visibility="invisible"
         app:srcCompat="@drawable/big_disk" />
 
     <ImageView
         android:id="@+id/bigDisk3"
         android:layout_width="89dp"
         android:layout_height="17dp"
-        android:layout_marginStart="148dp"
         android:layout_marginTop="170dp"
-        app:layout_constraintStart_toEndOf="@+id/bigDisk1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toEndOf="@+id/bigDisk2"
         app:layout_constraintTop_toTopOf="@+id/tower3"
+        android:visibility="invisible"
         app:srcCompat="@drawable/big_disk" />
 
     <ImageView
         android:id="@+id/mediumDisk1"
         android:layout_width="59dp"
         android:layout_height="20dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="63dp"
         app:layout_constraintBottom_toTopOf="@+id/bigDisk1"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower1"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/medium_disk" />
 
     <ImageView
@@ -148,6 +160,9 @@
         app:layout_constraintBottom_toTopOf="@+id/bigDisk2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower2"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"
         app:srcCompat="@drawable/medium_disk" />
 
     <ImageView
@@ -156,8 +171,11 @@
         android:layout_height="20dp"
         app:layout_constraintBottom_toTopOf="@+id/bigDisk3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintHorizontal_bias="0.849"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower3"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"
         app:srcCompat="@drawable/medium_disk" />
 
     <ImageView
@@ -165,8 +183,13 @@
         android:layout_width="47dp"
         android:layout_height="12dp"
         android:layout_marginStart="68dp"
-        app:layout_constraintBottom_toTopOf="@+id/mediumDisk2"
+        app:layout_constraintBottom_toTopOf="@+id/mediumDisk1"
+        app:layout_constraintEnd_toStartOf="@+id/smallDisk2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower1"
+        app:layout_constraintVertical_bias="0.992"
+
         app:srcCompat="@drawable/small_disk" />
 
     <ImageView
@@ -176,6 +199,9 @@
         app:layout_constraintBottom_toTopOf="@+id/mediumDisk2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower2"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"
         app:srcCompat="@drawable/small_disk" />
 
     <ImageView
@@ -184,8 +210,11 @@
         android:layout_height="12dp"
         app:layout_constraintBottom_toTopOf="@+id/mediumDisk3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tower3"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"
         app:srcCompat="@drawable/small_disk" />
 
 
