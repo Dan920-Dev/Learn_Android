@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="info_text_view">Complete el formulario</string>
+    <string name="saludo_text">Hola %s, Estos son tus datos!</string>
+    <string name="saludo2_text">No se ingreso el dato</string>
+    <string name="data_text_view">Email: %s \n \n Telefono: %s</string>
+</resources>
