@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+    <variable
+        name="viewModel"
+        type="com.escobar.vaccinecovid.MainViewModel" />
+</data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ResultFragment">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Resumen"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/name_final"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{viewModel.name}"
+                android:gravity="center"
+                tools:text="Nombre"/>
+
+            <TextView
+                android:id="@+id/vaccine_final"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{viewModel.typeVaccine}"
+                android:gravity="center"
+                tools:text="VACUNA"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
