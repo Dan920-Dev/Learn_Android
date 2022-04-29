@@ -8,5 +8,13 @@
         android:id="@+id/wordListFragment"
         android:name="com.escobar.dummydictionary.ui.WordListFragment"
         tools:layout="@layout/fragment_word_list"
-        android:label="WordListFragment" />
+        android:label="WordListFragment" >
+        <action
+            android:id="@+id/action_wordListFragment_to_addWordFragment"
+            app:destination="@id/addWordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addWordFragment"
+        android:name="com.escobar.dummydictionary.ui.AddWordFragment"
+        android:label="AddWordFragment" />
 </navigation>

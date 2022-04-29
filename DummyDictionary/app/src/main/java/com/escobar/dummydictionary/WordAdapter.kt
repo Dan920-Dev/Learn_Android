@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.escobar.dummydictionary.databinding.ItemWordBinding
-import com.escobar.dummydictionary.model.Word
+import com.escobar.dummydictionary.data.model.Word
 
 class WordAdapter : RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
 
@@ -13,8 +13,11 @@ class WordAdapter : RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
         fun bind(word: Word) {
             binding.word = word
             binding.executePendingBindings()
+
         }
     }
+
+
 
     private var words: List<Word>? = null
 
@@ -22,6 +25,7 @@ class WordAdapter : RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
         words = data
         notifyDataSetChanged()
     }
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         WordViewHolder(

@@ -2,4 +2,7 @@
     <string name="app_name">DummyDictionary</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="word">word</string>
+    <string name="word_text_view">Palabra</string>
+    <string name="definicion_text_view">Definicion</string>
 </resources>

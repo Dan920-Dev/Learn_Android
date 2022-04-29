@@ -2,18 +2,18 @@ package com.escobar.dummydictionary
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.escobar.dummydictionary.data.model.Word
 import com.escobar.dummydictionary.repository.DictionaryRepository
+import kotlinx.coroutines.launch
 
 class WordViewModel(private val repository: DictionaryRepository): ViewModel() {
-    val words = repository.words
-}
+    val words = repository.getAllWords()
 
-class WordViewModelFactory(private val repository: DictionaryRepository): ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(WordViewModel::class.java)) {
-            return WordViewModel(repository) as T
+    fun addWord(word: Word) {
+        viewModelScope.launch {
+            repository.addWord(word)
         }
-        throw IllegalArgumentException("Unknown ViewModel Class")
     }
-
 }
+
