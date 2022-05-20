@@ -1,11 +1,12 @@
-package com.escobar.dummydictionary
+package com.escobar.dummydictionary.ui.word
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.escobar.dummydictionary.databinding.ItemWordBinding
+import com.escobar.dummydictionary.R
 import com.escobar.dummydictionary.data.model.Word
+import com.escobar.dummydictionary.databinding.ItemWordBinding
 
 class WordAdapter : RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
 

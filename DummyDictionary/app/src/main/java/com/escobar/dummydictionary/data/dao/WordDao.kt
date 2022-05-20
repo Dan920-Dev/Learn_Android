@@ -11,7 +11,7 @@ import androidx.room.*
         @Query("SELECT * FROM  word_table")
         fun getAllWords(): LiveData<List<Word>>
 
-        @Insert(onConflict = OnConflictStrategy.ABORT)
+        @Insert
         suspend fun insertWord(word: Word)
 
         @Update

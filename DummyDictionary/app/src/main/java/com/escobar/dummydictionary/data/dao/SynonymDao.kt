@@ -1,13 +1,11 @@
 package com.escobar.dummydictionary.data.dao
 
-import androidx.lifecycle.LiveData
-import androidx.room.*
-import com.escobar.dummydictionary.data.model.Synonym
-import com.escobar.dummydictionary.data.model.Word
+import androidx.room.Dao
 
 @Dao
 interface SynonymDao {
 
+    /*
     @Query("SELECT w.term, w.definition, w.is_fav FROM synonym_table as st INNER JOIN word_table as w ON w.term == st.synonym_term WHERE st.term = :term")
     fun getAllSynonym(term: String): LiveData<List<Word>>
 
@@ -19,4 +17,6 @@ interface SynonymDao {
 
     @Delete
     suspend fun deleteWord(word: Synonym)
+
+ */
 }

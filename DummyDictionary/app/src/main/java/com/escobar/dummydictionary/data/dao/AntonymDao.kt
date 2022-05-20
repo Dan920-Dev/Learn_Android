@@ -1,13 +1,10 @@
 package com.escobar.dummydictionary.data.dao
 
-import androidx.lifecycle.LiveData
-import androidx.room.*
-import com.escobar.dummydictionary.data.model.Antonym
-import com.escobar.dummydictionary.data.model.Word
+import androidx.room.Dao
 
 @Dao
 interface AntonymDao {
-
+/*
     @Query("SELECT w.term, w.definition, w.is_fav FROM antonym_table as at INNER JOIN word_table as w ON w.term == at.antonym_term WHERE at.term = :term")
     fun getAllAntonym(term: String): LiveData<List<Word>>
 
@@ -19,4 +16,8 @@ interface AntonymDao {
 
     @Delete
     suspend fun deleteWord(word: Antonym)
+
+
+ */
+
 }

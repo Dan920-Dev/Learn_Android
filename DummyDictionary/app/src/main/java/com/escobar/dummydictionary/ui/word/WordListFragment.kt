@@ -1,17 +1,17 @@
-package com.escobar.dummydictionary.ui
+package com.escobar.dummydictionary.ui.word
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import com.escobar.dummydictionary.*
+import com.escobar.dummydictionary.DummyDictionaryApplication
+import com.escobar.dummydictionary.R
 import com.escobar.dummydictionary.databinding.FragmentWordListBinding
-import com.escobar.dummydictionary.repository.DictionaryRepository
+import com.escobar.dummydictionary.ui.WordViewModelFactory
 
 class WordListFragment : Fragment() {
 
@@ -43,16 +43,27 @@ class WordListFragment : Fragment() {
             adapter = wordAdapter
         }
 
-        viewModel.words.observe(viewLifecycleOwner) { data ->
-            wordAdapter.setData(data)
-        }
+        viewModel.getAllWords()
 
+        viewModel.status.observe(viewLifecycleOwner) { status ->
+            when (status) {
+                is WordUiState.Error -> Log.d("word list status", "Error", status.exception)
+                WordUiState.Loading -> Log.d("word list status", "Error")
+                is WordUiState.Success -> TODO()//status.word.observe(viewLifecycleOwner) { data  ->
+                    // wordAdapter.setData(data)
+                }
+            }
+        }
+        /*
         val navController = findNavController()
         binding.actionAddWord.setOnClickListener {
             val action = WordListFragmentDirections.actionWordListFragmentToAddWordFragment()
             navController.navigate(action)
         }
+
+        */
+
     }
 
 
-}
+

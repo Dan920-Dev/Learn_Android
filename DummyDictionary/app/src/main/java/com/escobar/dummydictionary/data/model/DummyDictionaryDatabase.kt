@@ -8,7 +8,7 @@ import com.escobar.dummydictionary.data.dao.AntonymDao
 import com.escobar.dummydictionary.data.dao.SynonymDao
 
 @Database(
-        entities = [Word::class, Antonym::class, Synonym::class],
+        entities = [Word::class],
         version = 1,
         exportSchema = false
     )

@@ -34,7 +34,6 @@ class VaccineFragment : Fragment() {
         binding.viewModel = viewModel
         binding.lifecycleOwner = viewLifecycleOwner
 
-
         addListeners()
     }
 

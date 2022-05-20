@@ -6,7 +6,7 @@
     app:startDestination="@id/wordListFragment">
     <fragment
         android:id="@+id/wordListFragment"
-        android:name="com.escobar.dummydictionary.ui.WordListFragment"
+        android:name="com.escobar.dummydictionary.ui.word.WordListFragment"
         tools:layout="@layout/fragment_word_list"
         android:label="WordListFragment" >
         <action
