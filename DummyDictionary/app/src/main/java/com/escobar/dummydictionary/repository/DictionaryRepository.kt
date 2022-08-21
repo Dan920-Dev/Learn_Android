@@ -27,9 +27,4 @@ class DictionaryRepository(
             ApiResponse.Error(exception = e)
         }
     }
-
-    suspend fun addWord(word: Word) {
-        wordDoa.insertWord(word)
-    }
-
 }

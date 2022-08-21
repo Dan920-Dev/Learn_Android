@@ -12,7 +12,7 @@ import androidx.room.*
         fun getAllWords(): LiveData<List<Word>>
 
         @Insert
-        suspend fun insertWord(word: Word)
+        suspend fun insertWord(word: List<Word>)
 
         @Update
         suspend fun updateWord(word: Word)

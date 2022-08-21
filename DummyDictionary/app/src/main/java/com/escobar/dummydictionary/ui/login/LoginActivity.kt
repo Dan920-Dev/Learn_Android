@@ -2,7 +2,6 @@ package com.escobar.dummydictionary.ui.login
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -28,20 +27,20 @@ class LoginActivity: AppCompatActivity() {
         viewModelFactory
     }
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         if (app.isUserLogin()) {
             return starMainActivity()
         }
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_login, )
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_login )
         binding.viewModel = viewModel
+        binding.lifecycleOwner = this
         viewModel.status.observe(this) { status ->
             handleUIState(status)
         }
     }
-
     private fun handleUIState(status: LoginUiStatus) {
         when(status) {
             is LoginUiStatus.Error -> Log.d("Login List Status", "")

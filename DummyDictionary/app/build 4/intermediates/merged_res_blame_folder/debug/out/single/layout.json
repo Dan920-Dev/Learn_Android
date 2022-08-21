@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.escobar.dummydictionary.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.escobar.dummydictionary.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.escobar.dummydictionary.app-mergeDebugResources-51:/layout/activity_login.xml",
+        "source": "com.escobar.dummydictionary.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.escobar.dummydictionary.app-mergeDebugResources-51:/layout/fragment_add_word.xml",
+        "source": "com.escobar.dummydictionary.app-main-54:/layout/fragment_add_word.xml"
+    },
+    {
+        "merged": "com.escobar.dummydictionary.app-mergeDebugResources-51:/layout/fragment_word_list.xml",
+        "source": "com.escobar.dummydictionary.app-main-54:/layout/fragment_word_list.xml"
+    },
+    {
+        "merged": "com.escobar.dummydictionary.app-mergeDebugResources-51:/layout/item_word.xml",
+        "source": "com.escobar.dummydictionary.app-main-54:/layout/item_word.xml"
+    }
+]

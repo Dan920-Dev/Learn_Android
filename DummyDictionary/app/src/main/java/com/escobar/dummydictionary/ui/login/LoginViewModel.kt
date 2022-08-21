@@ -14,7 +14,7 @@ class LoginViewModel(private val repository: LoginRepository): ViewModel() {
     val passwordField = MutableLiveData("")
     private val _status = MutableLiveData<LoginUiStatus>(LoginUiStatus.Resume)
     val status: LiveData<LoginUiStatus>
-        get() = status
+        get() = _status
 
     fun onLogin() {
         _status.value = LoginUiStatus.Loading

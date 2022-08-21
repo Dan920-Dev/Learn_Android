@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/nav_graph2.xml","javaFiles":["com.escobar.dummydictionary.FirstFragmentDirections","com.escobar.dummydictionary.SecondFragmentDirections"]},{"navFile":"src/main/res/navigation/nav_graph.xml","javaFiles":["com.escobar.dummydictionary.ui.word.WordListFragmentDirections"]}]

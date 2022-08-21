@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.escobar.dummydictionary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.REORDER_TASKS" />
+12-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:5-72
+12-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:22-69
+13
+14    <application
+14-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:7:5-29:19
+15        android:name="com.escobar.dummydictionary.DummyDictionaryApplication"
+15-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:8:9-51
+16        android:allowBackup="true"
+16-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] /Users/daniel/.gradle/caches/transforms-3/5a70077246225747c407fb86ec8a5292/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.DummyDictionary"
+24-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:15:9-53
+25        android:usesCleartextTraffic="true" >
+25-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:12:9-44
+26        <activity
+26-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:16:9-25:20
+27            android:name="com.escobar.dummydictionary.ui.login.LoginActivity"
+27-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:17:13-51
+28            android:exported="true"
+28-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:18:13-36
+29            android:theme="@style/Theme.DummyDictionary.NoActionBar" >
+29-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:19:13-69
+30            <intent-filter>
+30-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:17-69
+31-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:23:17-77
+33-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:26:9-28:38
+37            android:name="com.escobar.dummydictionary.MainActivity"
+37-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:27:13-41
+38            android:exported="true" />
+38-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:28:13-36
+39        <activity
+39-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:28:9-37:20
+40            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+40-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:29:13-96
+41            android:exported="true"
+41-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:30:13-36
+42            android:multiprocess="true"
+42-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:31:13-40
+43            android:taskAffinity=""
+43-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:32:13-36
+44            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+44-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:33:13-78
+45            <intent-filter>
+45-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:17-69
+46-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:25-66
+47            </intent-filter>
+48        </activity>
+49
+50        <uses-library
+50-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+51            android:name="androidx.window.extensions"
+51-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+53        <uses-library
+53-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+54            android:name="androidx.window.sidecar"
+54-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0] /Users/daniel/.gradle/caches/transforms-3/f29deb339ed17bf6ea0bfee9c3236d8e/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+56
+57        <service
+57-->[androidx.room:room-runtime:2.5.0-alpha01] /Users/daniel/.gradle/caches/transforms-3/39016057e66231e80184bef2c6319cc9/transformed/room-runtime-2.5.0-alpha01/AndroidManifest.xml:26:9-30:63
+58            android:name="androidx.room.MultiInstanceInvalidationService"
+58-->[androidx.room:room-runtime:2.5.0-alpha01] /Users/daniel/.gradle/caches/transforms-3/39016057e66231e80184bef2c6319cc9/transformed/room-runtime-2.5.0-alpha01/AndroidManifest.xml:27:13-74
+59            android:directBootAware="true"
+59-->[androidx.room:room-runtime:2.5.0-alpha01] /Users/daniel/.gradle/caches/transforms-3/39016057e66231e80184bef2c6319cc9/transformed/room-runtime-2.5.0-alpha01/AndroidManifest.xml:28:13-43
+60            android:exported="false" />
+60-->[androidx.room:room-runtime:2.5.0-alpha01] /Users/daniel/.gradle/caches/transforms-3/39016057e66231e80184bef2c6319cc9/transformed/room-runtime-2.5.0-alpha01/AndroidManifest.xml:29:13-37
+61
+62        <activity
+62-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+63-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+64            android:exported="true"
+64-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+65            android:theme="@android:style/Theme" >
+65-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+66            <intent-filter>
+66-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:17-69
+67-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:25-66
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+71-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+72            android:exported="true"
+72-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+73            android:theme="@android:style/Theme" >
+73-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+74            <intent-filter>
+74-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:17-69
+75-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:25-66
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+79-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+80            android:exported="true"
+80-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+81            android:theme="@android:style/Theme.Dialog" >
+81-->[androidx.test:core:1.4.0] /Users/daniel/.gradle/caches/transforms-3/e1f7c1e9a68515629176a62ccceab373/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+82            <intent-filter>
+82-->[androidx.fragment:fragment-testing:1.4.1] /Users/daniel/.gradle/caches/transforms-3/7baf2b8c3092fdd34bf6e2fc8a02911c/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:17-69
+83-->/Users/daniel/Desktop/Workspace/Moviles-01-22/DummyDictionary/app/src/main/AndroidManifest.xml:21:25-66
+84            </intent-filter>
+85        </activity>
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+89            android:authorities="com.escobar.dummydictionary.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/daniel/.gradle/caches/transforms-3/a8e03241f13413faf5e99b4ead85b76d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/daniel/.gradle/caches/transforms-3/973f52eb49dd056199ce79f64b070a77/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/daniel/.gradle/caches/transforms-3/973f52eb49dd056199ce79f64b070a77/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/daniel/.gradle/caches/transforms-3/973f52eb49dd056199ce79f64b070a77/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+97        </provider>
+98    </application>
+99
+100</manifest>

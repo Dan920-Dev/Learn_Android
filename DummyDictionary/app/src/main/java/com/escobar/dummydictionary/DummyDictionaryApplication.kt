@@ -9,6 +9,7 @@ import com.escobar.dummydictionary.repository.DictionaryRepository
 import com.escobar.dummydictionary.repository.LoginRepository
 
 class DummyDictionaryApplication : Application() {
+
     private val prefs: SharedPreferences by lazy {
         getSharedPreferences(getString(R.string.app_name), Context.MODE_PRIVATE)
     }

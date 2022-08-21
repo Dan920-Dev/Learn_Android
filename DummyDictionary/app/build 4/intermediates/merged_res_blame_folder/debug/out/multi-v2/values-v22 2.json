@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.escobar.dummydictionary.app-mergeDebugResources-50:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/daniel/.gradle/caches/transforms-3/6801cb60cb66505fc51c1c39f9dd7fb1/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}
