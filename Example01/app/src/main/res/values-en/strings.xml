@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Example01</string>
+    <string name="message_to_send">Write what you need</string>
+    <string name="email">Your Email</string>
+    <string name="description">Estudent of Informatic Engineering</string>
+</resources>
