@@ -4,4 +4,6 @@
     <string name="message_to_send">Write what you need</string>
     <string name="email">Your Email</string>
     <string name="description">Estudent of Informatic Engineering</string>
+    <string name="errorEmail">ERROR, enter your  Email</string>
+    <string name="errorMessage">ERROR, write a message</string>
 </resources>

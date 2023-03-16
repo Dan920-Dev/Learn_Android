@@ -3,4 +3,6 @@
     <string name="message_to_send">Escribe que necesitas</string>
     <string name="email">Tu Correo</string>
     <string name="description">Estudiante de Ingenieria Informatica</string>
+    <string name="errorMessage">ERROR, escriba un mensaje</string>
+    <string name="errorEmail">ERROR, ingrese Email</string>
 </resources>
