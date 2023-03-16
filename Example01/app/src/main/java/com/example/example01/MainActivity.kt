@@ -17,7 +17,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         bind()
+        validation()
+
+    }
+
+    // Link-up to views
+    fun bind() {
+        email = findViewById(R.id.email_edit_text)
+        message = findViewById(R.id.message_edit_text)
+        send = findViewById(R.id.action_send)
+    }
+
+    fun validation() {
 
         // Action
         send.setOnClickListener { _ ->
@@ -55,13 +68,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-
     }
 
-    fun bind() {
-        email = findViewById(R.id.email_edit_text)
-        message = findViewById(R.id.message_edit_text)
-        send = findViewById(R.id.action_send)
-    }
 
 }
